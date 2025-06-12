@@ -1,8 +1,12 @@
+
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Play, TrendingUp, Users, Award } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { TrendingUp, Users, Award } from "lucide-react";
+
 const HeroSection = () => {
-  return <section className="relative min-h-screen bg-gradient-to-br from-industrial-blue via-steel-gray to-engine-gray overflow-hidden">
+  return (
+    <section className="relative min-h-screen bg-gradient-to-br from-industrial-blue via-steel-gray to-engine-gray overflow-hidden">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 circuit-pattern opacity-10"></div>
       
@@ -28,14 +32,6 @@ const HeroSection = () => {
               </p>
             </div>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="bg-machinery-orange hover:bg-machinery-orange/90 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-2xl hover:shadow-machinery-orange/25 transition-all duration-300 transform hover:scale-105">
-                Get a Free Strategy Session
-              </Button>
-              
-            </div>
-
             {/* Trust Indicators */}
             <div className="flex items-center gap-8 pt-8">
               <div className="flex items-center gap-2 text-white/80">
@@ -53,71 +49,57 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right Column - Visual */}
+          {/* Right Column - Consultation Form */}
           <div className="relative">
-            <div className="relative z-10">
-              <Card className="bg-white/10 backdrop-blur-sm border-white/20 p-8 rounded-2xl shadow-2xl">
-                <div className="space-y-6">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-white font-montserrat font-semibold text-xl">Factory Analytics Dashboard</h3>
-                    <div className="w-3 h-3 bg-precision-teal rounded-full animate-pulse-glow"></div>
-                  </div>
-                  
-                  {/* Mock Analytics */}
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-white/5 p-4 rounded-lg border border-white/10">
-                      <div className="text-precision-teal text-2xl font-bold">3X</div>
-                      <div className="text-white/70 text-sm">Lead Growth</div>
-                    </div>
-                    <div className="bg-white/5 p-4 rounded-lg border border-white/10">
-                      <div className="text-warning-yellow text-2xl font-bold">50+</div>
-                      <div className="text-white/70 text-sm">Keywords Ranked</div>
-                    </div>
-                    <div className="bg-white/5 p-4 rounded-lg border border-white/10">
-                      <div className="text-machinery-orange text-2xl font-bold">2X</div>
-                      <div className="text-white/70 text-sm">LinkedIn Engagement</div>
-                    </div>
-                    <div className="bg-white/5 p-4 rounded-lg border border-white/10">
-                      <div className="text-precision-teal text-2xl font-bold">82%</div>
-                      <div className="text-white/70 text-sm">Client Retention</div>
-                    </div>
-                  </div>
-
-                  {/* Progress Bars */}
-                  <div className="space-y-3">
-                    <div>
-                      <div className="flex justify-between text-white/70 text-sm mb-1">
-                        <span>Organic Traffic</span>
-                        <span>89%</span>
-                      </div>
-                      <div className="w-full bg-white/10 rounded-full h-2">
-                        <div className="bg-precision-teal h-2 rounded-full" style={{
-                        width: '89%'
-                      }}></div>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="flex justify-between text-white/70 text-sm mb-1">
-                        <span>Conversion Rate</span>
-                        <span>76%</span>
-                      </div>
-                      <div className="w-full bg-white/10 rounded-full h-2">
-                        <div className="bg-warning-yellow h-2 rounded-full" style={{
-                        width: '76%'
-                      }}></div>
-                      </div>
-                    </div>
-                  </div>
+            <Card className="bg-white p-8 rounded-2xl shadow-2xl max-w-md mx-auto">
+              <div className="text-center mb-6">
+                <h2 className="text-2xl font-montserrat font-bold text-machinery-orange mb-2">
+                  BOOK A FREE
+                </h2>
+                <h2 className="text-2xl font-montserrat font-bold text-machinery-orange mb-2">
+                  CONSULTATION
+                </h2>
+                <p className="text-engine-gray font-medium">No Obligation!</p>
+              </div>
+              
+              <form className="space-y-4">
+                <div>
+                  <Input 
+                    type="text" 
+                    placeholder="Name" 
+                    className="w-full border-b-2 border-t-0 border-l-0 border-r-0 border-steel-gray rounded-none bg-transparent px-0 py-3 placeholder:text-steel-gray focus:border-machinery-orange focus-visible:ring-0"
+                  />
                 </div>
-              </Card>
-            </div>
-            
-            {/* Background geometric shapes */}
-            <div className="absolute -top-10 -right-10 w-40 h-40 border border-white/10 rounded-2xl transform rotate-12"></div>
-            <div className="absolute -bottom-10 -left-10 w-32 h-32 border border-precision-teal/20 rounded-2xl transform -rotate-12"></div>
+                <div>
+                  <Input 
+                    type="email" 
+                    placeholder="Email" 
+                    className="w-full border-b-2 border-t-0 border-l-0 border-r-0 border-steel-gray rounded-none bg-transparent px-0 py-3 placeholder:text-steel-gray focus:border-machinery-orange focus-visible:ring-0"
+                  />
+                </div>
+                <div>
+                  <Input 
+                    type="tel" 
+                    placeholder="Phone" 
+                    className="w-full border-b-2 border-t-0 border-l-0 border-r-0 border-steel-gray rounded-none bg-transparent px-0 py-3 placeholder:text-steel-gray focus:border-machinery-orange focus-visible:ring-0"
+                  />
+                </div>
+                
+                <div className="pt-4">
+                  <Button 
+                    type="submit"
+                    className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300"
+                  >
+                    Submit
+                  </Button>
+                </div>
+              </form>
+            </Card>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;
