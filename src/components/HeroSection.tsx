@@ -21,19 +21,15 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-montserrat font-bold text-white leading-tight">
-                Drive Industrial
+                Digital Marketing That Powers
                 <span className="block text-gradient bg-gradient-to-r from-precision-teal to-warning-yellow bg-clip-text text-transparent">
-                  Growth
+                  Manufacturing Growth
                 </span>
               </h1>
               <p className="text-2xl font-montserrat font-medium text-white/90">
-                Digital Marketing for Manufacturers
+                Drive leads, improve visibility, and grow smarter with Pixel Studios — the specialists in digital marketing for manufacturers.
               </p>
             </div>
-
-            <p className="text-xl text-white/80 leading-relaxed max-w-2xl">
-              Proven Strategies to Generate Qualified B2B Leads, Strengthen Brand Authority & Accelerate Sales Cycles
-            </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -41,7 +37,7 @@ const HeroSection = () => {
                 size="lg" 
                 className="bg-machinery-orange hover:bg-machinery-orange/90 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-2xl hover:shadow-machinery-orange/25 transition-all duration-300 transform hover:scale-105"
               >
-                Request Your Free Manufacturing Marketing Audit
+                Get a Free Strategy Session
               </Button>
               <Button 
                 variant="outline" 
@@ -57,15 +53,15 @@ const HeroSection = () => {
             <div className="flex items-center gap-8 pt-8">
               <div className="flex items-center gap-2 text-white/80">
                 <TrendingUp className="w-5 h-5 text-precision-teal" />
-                <span className="text-sm font-medium">214% Avg Growth</span>
+                <span className="text-sm font-medium">3X Lead Growth</span>
               </div>
               <div className="flex items-center gap-2 text-white/80">
                 <Users className="w-5 h-5 text-precision-teal" />
-                <span className="text-sm font-medium">500+ Manufacturers</span>
+                <span className="text-sm font-medium">12+ Years Experience</span>
               </div>
               <div className="flex items-center gap-2 text-white/80">
                 <Award className="w-5 h-5 text-precision-teal" />
-                <span className="text-sm font-medium">ISO Certified</span>
+                <span className="text-sm font-medium">Manufacturing Focused</span>
               </div>
             </div>
           </div>
@@ -83,20 +79,20 @@ const HeroSection = () => {
                   {/* Mock Analytics */}
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-white/5 p-4 rounded-lg border border-white/10">
-                      <div className="text-precision-teal text-2xl font-bold">247%</div>
+                      <div className="text-precision-teal text-2xl font-bold">3X</div>
                       <div className="text-white/70 text-sm">Lead Growth</div>
                     </div>
                     <div className="bg-white/5 p-4 rounded-lg border border-white/10">
-                      <div className="text-warning-yellow text-2xl font-bold">$1.8M</div>
-                      <div className="text-white/70 text-sm">Pipeline Value</div>
+                      <div className="text-warning-yellow text-2xl font-bold">50+</div>
+                      <div className="text-white/70 text-sm">Keywords Ranked</div>
                     </div>
                     <div className="bg-white/5 p-4 rounded-lg border border-white/10">
-                      <div className="text-machinery-orange text-2xl font-bold">5.3x</div>
-                      <div className="text-white/70 text-sm">ROI Increase</div>
+                      <div className="text-machinery-orange text-2xl font-bold">2X</div>
+                      <div className="text-white/70 text-sm">LinkedIn Engagement</div>
                     </div>
                     <div className="bg-white/5 p-4 rounded-lg border border-white/10">
                       <div className="text-precision-teal text-2xl font-bold">82%</div>
-                      <div className="text-white/70 text-sm">Retention Rate</div>
+                      <div className="text-white/70 text-sm">Client Retention</div>
                     </div>
                   </div>
 

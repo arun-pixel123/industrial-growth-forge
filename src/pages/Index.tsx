@@ -1,21 +1,25 @@
 
 import HeroSection from "@/components/HeroSection";
-import PainPointsSection from "@/components/PainPointsSection";
+import ProblemStatementSection from "@/components/ProblemStatementSection";
+import WhoWeServeSection from "@/components/WhoWeServeSection";
 import ServicesGrid from "@/components/ServicesGrid";
-import PortfolioShowcase from "@/components/PortfolioShowcase";
-import TestimonialSection from "@/components/TestimonialSection";
-import ConversionSection from "@/components/ConversionSection";
+import CaseStudySection from "@/components/CaseStudySection";
+import WhyChooseSection from "@/components/WhyChooseSection";
+import CTASection from "@/components/CTASection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      <PainPointsSection />
+      <ProblemStatementSection />
+      <WhoWeServeSection />
       <ServicesGrid />
-      <PortfolioShowcase />
-      <TestimonialSection />
-      <ConversionSection />
+      <CaseStudySection />
+      <WhyChooseSection />
+      <CTASection />
+      <FAQSection />
       <Footer />
     </div>
   );
