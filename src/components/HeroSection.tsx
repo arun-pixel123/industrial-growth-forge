@@ -1,11 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Play, TrendingUp, Users, Award } from "lucide-react";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen bg-gradient-to-br from-industrial-blue via-steel-gray to-engine-gray overflow-hidden">
+  return <section className="relative min-h-screen bg-gradient-to-br from-industrial-blue via-steel-gray to-engine-gray overflow-hidden">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 circuit-pattern opacity-10"></div>
       
@@ -33,20 +30,10 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button 
-                size="lg" 
-                className="bg-machinery-orange hover:bg-machinery-orange/90 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-2xl hover:shadow-machinery-orange/25 transition-all duration-300 transform hover:scale-105"
-              >
+              <Button size="lg" className="bg-machinery-orange hover:bg-machinery-orange/90 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-2xl hover:shadow-machinery-orange/25 transition-all duration-300 transform hover:scale-105">
                 Get a Free Strategy Session
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-2 border-white text-white hover:bg-white hover:text-industrial-blue px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300"
-              >
-                <Play className="w-5 h-5 mr-2" />
-                Watch Case Study
-              </Button>
+              
             </div>
 
             {/* Trust Indicators */}
@@ -104,7 +91,9 @@ const HeroSection = () => {
                         <span>89%</span>
                       </div>
                       <div className="w-full bg-white/10 rounded-full h-2">
-                        <div className="bg-precision-teal h-2 rounded-full" style={{ width: '89%' }}></div>
+                        <div className="bg-precision-teal h-2 rounded-full" style={{
+                        width: '89%'
+                      }}></div>
                       </div>
                     </div>
                     <div>
@@ -113,7 +102,9 @@ const HeroSection = () => {
                         <span>76%</span>
                       </div>
                       <div className="w-full bg-white/10 rounded-full h-2">
-                        <div className="bg-warning-yellow h-2 rounded-full" style={{ width: '76%' }}></div>
+                        <div className="bg-warning-yellow h-2 rounded-full" style={{
+                        width: '76%'
+                      }}></div>
                       </div>
                     </div>
                   </div>
@@ -127,8 +118,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
