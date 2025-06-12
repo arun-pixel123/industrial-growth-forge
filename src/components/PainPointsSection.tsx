@@ -1,5 +1,5 @@
 
-import { Shield, Gear, TrendingUp, Globe, Clock, Target } from "lucide-react";
+import { Shield, Settings, TrendingUp, Globe, Clock, Target } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const PainPointsSection = () => {
@@ -42,7 +42,7 @@ const PainPointsSection = () => {
             <div className="relative">
               <div className="w-20 h-20 bg-gradient-to-br from-industrial-blue to-precision-teal rounded-2xl flex items-center justify-center shadow-2xl">
                 <div className="relative">
-                  <Gear className="w-10 h-10 text-white animate-spin" style={{ animationDuration: '8s' }} />
+                  <Settings className="w-10 h-10 text-white animate-spin" style={{ animationDuration: '8s' }} />
                   <Shield className="w-6 h-6 text-warning-yellow absolute -top-1 -right-1" />
                 </div>
               </div>
