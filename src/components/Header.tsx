@@ -39,8 +39,7 @@ const Header = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Button 
-              variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-industrial-blue"
+              className="bg-machinery-orange hover:bg-machinery-orange/90 text-white"
             >
               LET'S DISCUSS BUSINESS
             </Button>
@@ -76,8 +75,7 @@ const Header = () => {
               </a>
               <div className="flex flex-col space-y-2 pt-4">
                 <Button 
-                  variant="outline" 
-                  className="border-white text-white hover:bg-white hover:text-industrial-blue"
+                  className="bg-machinery-orange hover:bg-machinery-orange/90 text-white"
                 >
                   LET'S DISCUSS BUSINESS
                 </Button>
