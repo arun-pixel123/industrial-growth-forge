@@ -1,4 +1,3 @@
-
 import { TrendingUp, Users, Target, Play } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -76,7 +75,7 @@ const CaseStudySection = () => {
             </div>
             <Button 
               variant="outline" 
-              className="mt-6 border-white text-white hover:bg-white hover:text-industrial-blue"
+              className="mt-6 border-machinery-orange text-machinery-orange hover:bg-machinery-orange hover:text-white"
             >
               <Play className="w-4 h-4 mr-2" />
               Watch Full Case Study

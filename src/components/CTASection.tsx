@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Shield } from "lucide-react";
 
@@ -29,7 +28,7 @@ const CTASection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-2 border-industrial-blue text-industrial-blue hover:bg-industrial-blue hover:text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300"
+              className="border-2 border-machinery-orange text-machinery-orange hover:bg-machinery-orange hover:text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300"
             >
               Download Manufacturing Playbook
             </Button>

@@ -1,4 +1,3 @@
-
 import { AlertTriangle, Clock, Target, Wrench } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -59,7 +58,7 @@ const ProblemStatementSection = () => {
         <div className="text-center">
           <Button 
             variant="outline"
-            className="border-2 border-industrial-blue text-industrial-blue hover:bg-industrial-blue hover:text-white"
+            className="border-2 border-machinery-orange text-machinery-orange hover:bg-machinery-orange hover:text-white"
           >
             Learn How We Solve These
           </Button>

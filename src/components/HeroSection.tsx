@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -88,7 +87,7 @@ const HeroSection = () => {
                 <div className="pt-4">
                   <Button 
                     type="submit"
-                    className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300"
+                    className="w-full bg-machinery-orange hover:bg-machinery-orange/90 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300"
                   >
                     Submit
                   </Button>
