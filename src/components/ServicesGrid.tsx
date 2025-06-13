@@ -8,78 +8,77 @@ const ServicesGrid = () => {
     {
       icon: <Monitor className="w-8 h-8" />,
       title: "Web Design",
-      subtitle: "Industrial-Grade Digital Experiences",
-      description: "Mobile-optimized portals with CAD integration & distributor portals",
+      subtitle: "Conversion-Ready Websites for Manufacturing Brands",
+      description: "Your website is your digital factory floor. We build B2B manufacturing websites that are fast, functional, and built for lead generation.",
       features: [
-        "Equipment specification databases",
-        "Secure distributor login portals", 
-        "Mobile-responsive technical documentation",
-        "Real-time inventory integration"
+        "Industry-specific UI/UX",
+        "RFQ forms with CRM integration", 
+        "Case study, catalog, and product page design",
+        "Mobile-responsive and SEO-optimized"
       ],
       color: "from-industrial-blue to-precision-teal"
     },
     {
       icon: <Search className="w-8 h-8" />,
       title: "SEO",
-      subtitle: "Technical Content Optimization", 
-      description: "Technical content for MRO suppliers + industrial keyword mapping",
+      subtitle: "Search Engine Optimization for Industrial Growth", 
+      description: "From machine tools to OEM parts, we help you rank for the terms that matter. Our SEO strategy attracts qualified decision-makers and boosts organic traffic.",
       features: [
-        "Technical specification SEO",
-        "Long-tail industrial keywords",
-        "Local manufacturing directory listings",
-        "Compliance-focused content strategy"
+        "Industrial keyword research",
+        "On-page & technical SEO",
+        "Local and export-focused SEO",
+        "Blog & landing page content creation"
       ],
-      color: "from-precision-teal to-warning-yellow"
+      color: "from-precision-teal to-machinery-orange"
     },
     {
       icon: <Zap className="w-8 h-8" />,
       title: "GEO",
-      subtitle: "Generative Engine Optimization",
-      description: "Next-generation AI-powered search optimization for manufacturing",
+      subtitle: "AI-Powered SEO for the Future of Manufacturing",
+      description: "Stand out in the age of AI search. We optimize your content for next-gen engines like ChatGPT, Perplexity & voice search to future-proof your digital reach.",
       features: [
-        "AI chatbot content optimization",
-        "Voice search for technical queries", 
-        "Manufacturing process explanations",
-        "Equipment comparison optimization"
-      ],
-      color: "from-warning-yellow to-machinery-orange"
-    },
-    {
-      icon: <Share2 className="w-8 h-8" />,
-      title: "SMO",
-      subtitle: "B2B Social Media Mastery",
-      description: "LinkedIn lead gen for manufacturers + equipment demo videos",
-      features: [
-        "LinkedIn executive thought leadership",
-        "Equipment demonstration videos",
-        "Trade show content amplification", 
-        "Industry association networking"
+        "AI-friendly product and process descriptions",
+        "Voice & chatbot content optimization", 
+        "Technical FAQs & schema markup",
+        "Comparison & recommendation content"
       ],
       color: "from-machinery-orange to-industrial-blue"
     },
     {
+      icon: <Share2 className="w-8 h-8" />,
+      title: "SMO",
+      subtitle: "Strengthen Your Industrial Presence on LinkedIn & Beyond",
+      description: "Reach buyers, engineers, and industry influencers on the platforms they trust.",
+      features: [
+        "LinkedIn lead generation",
+        "Technical storytelling via posts, videos, carousels",
+        "Recruitment branding", 
+        "Trade show & event promotion"
+      ],
+      color: "from-precision-teal to-machinery-orange"
+    },
+    {
       icon: <Palette className="w-8 h-8" />,
       title: "Branding",
-      subtitle: "Industrial Authority Building",
-      description: "Safety-certification storytelling + OEM partner ecosystems",
+      subtitle: "Build a Strong Industrial Identity",
+      description: "We create distinctive, credible brand identities for manufacturers.",
       features: [
-        "ISO certification showcasing",
-        "Supply chain partnership stories",
-        "Safety record highlighting",
-        "Quality assurance messaging"
+        "Logo, tagline, and brand kit",
+        "Brand messaging & tone-of-voice",
+        "Visual consistency across all touchpoints"
       ],
       color: "from-precision-teal to-industrial-blue"
     },
     {
       icon: <Target className="w-8 h-8" />,
-      title: "Campaign",
-      subtitle: "Targeted Industrial Marketing",
-      description: "Multi-channel campaigns designed for manufacturing decision-makers",
+      title: "Campaigns",
+      subtitle: "Performance-Driven Campaigns for B2B Manufacturing Leads",
+      description: "Run targeted campaigns that deliver real inquiries, not just clicks.",
       features: [
-        "Lead nurturing automation",
-        "Trade publication advertising",
-        "B2B email marketing campaigns",
-        "Performance tracking & optimization"
+        "Google Ads & LinkedIn Ads",
+        "Retargeting & competitor conquesting",
+        "Industry-specific campaign landing pages",
+        "Monthly reporting & lead tracking"
       ],
       color: "from-industrial-blue to-machinery-orange"
     }
@@ -90,14 +89,14 @@ const ServicesGrid = () => {
       {/* Background Elements */}
       <div className="absolute inset-0 circuit-pattern opacity-10"></div>
       <div className="absolute top-10 right-10 w-32 h-32 border border-precision-teal/20 rounded-full"></div>
-      <div className="absolute bottom-10 left-10 w-24 h-24 border border-warning-yellow/20 rounded-2xl transform rotate-45"></div>
+      <div className="absolute bottom-10 left-10 w-24 h-24 border border-machinery-orange/20 rounded-2xl transform rotate-45"></div>
 
       <div className="container mx-auto px-6 relative">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl lg:text-5xl font-montserrat font-bold text-white mb-4">
             Industrial-Strength
-            <span className="block bg-gradient-to-r from-precision-teal to-warning-yellow bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-precision-teal to-machinery-orange bg-clip-text text-transparent">
               Digital Solutions
             </span>
           </h2>
