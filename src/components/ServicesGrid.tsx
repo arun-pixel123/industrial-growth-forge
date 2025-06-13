@@ -146,7 +146,7 @@ const ServicesGrid = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
-                  className="border-white/20 text-white hover:bg-white hover:text-engine-gray transition-all duration-300 group-hover:border-precision-teal"
+                  className="border-machinery-orange text-machinery-orange hover:bg-machinery-orange hover:text-white transition-all duration-300"
                 >
                   Learn More
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />

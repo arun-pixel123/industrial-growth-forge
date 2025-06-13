@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -27,7 +28,7 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-2xl font-montserrat font-medium text-white/90">
-                Drive leads, improve visibility, and grow smarter with Pixel Studios — the specialists in digital marketing for manufacturers.
+                Center of excellence for manufacturers.
               </p>
             </div>
 
