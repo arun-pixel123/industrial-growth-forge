@@ -1,5 +1,5 @@
 
-import { Factory, Car, Cog, Wrench, Globe } from "lucide-react";
+import { Factory, Car, Cog, Wrench, Globe, Zap } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const WhoWeServeSection = () => {
@@ -28,6 +28,11 @@ const WhoWeServeSection = () => {
       icon: <Globe className="w-8 h-8" />,
       title: "Exporters & Fabricators",
       description: "Metal fabrication, export-oriented manufacturers, and custom fabricators"
+    },
+    {
+      icon: <Zap className="w-8 h-8" />,
+      title: "Electronics & Tech Manufacturing",
+      description: "Electronic component manufacturers, PCB fabricators, and tech hardware producers"
     }
   ];
 

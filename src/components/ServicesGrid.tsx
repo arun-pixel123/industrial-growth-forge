@@ -1,5 +1,5 @@
 
-import { Monitor, Search, Zap, Share2, Palette, ArrowRight } from "lucide-react";
+import { Monitor, Search, Zap, Share2, Palette, Target, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -69,11 +69,24 @@ const ServicesGrid = () => {
         "Quality assurance messaging"
       ],
       color: "from-precision-teal to-industrial-blue"
+    },
+    {
+      icon: <Target className="w-8 h-8" />,
+      title: "Campaign",
+      subtitle: "Targeted Industrial Marketing",
+      description: "Multi-channel campaigns designed for manufacturing decision-makers",
+      features: [
+        "Lead nurturing automation",
+        "Trade publication advertising",
+        "B2B email marketing campaigns",
+        "Performance tracking & optimization"
+      ],
+      color: "from-industrial-blue to-machinery-orange"
     }
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-engine-gray to-steel-gray relative overflow-hidden">
+    <section id="services" className="py-20 bg-gradient-to-br from-engine-gray to-steel-gray relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 circuit-pattern opacity-10"></div>
       <div className="absolute top-10 right-10 w-32 h-32 border border-precision-teal/20 rounded-full"></div>

@@ -1,5 +1,5 @@
 
-import { Award, Users, BarChart3, Shield, Lightbulb } from "lucide-react";
+import { Award, Users, BarChart3, Shield, Lightbulb, CheckCircle } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const WhyChooseSection = () => {
@@ -28,6 +28,11 @@ const WhyChooseSection = () => {
       icon: <Shield className="w-8 h-8" />,
       title: "Strategic & Technical Know-How",
       description: "Deep understanding of both marketing strategy and technical products"
+    },
+    {
+      icon: <CheckCircle className="w-8 h-8" />,
+      title: "Proven ROI Results",
+      description: "Consistent track record of delivering measurable growth and lead generation"
     }
   ];
 
