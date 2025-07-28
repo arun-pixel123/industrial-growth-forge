@@ -53,14 +53,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Industrial Manufacturing Color Palette
-				'industrial-blue': '#005792',
-				'machinery-orange': '#FF6B35',
-				'engine-gray': '#2E2E2E',
-				'steel-gray': '#5A5A5A',
-				'factory-white': '#F5F7FA',
-				'precision-teal': '#00C1D4',
-				'warning-yellow': '#FFD166',
+				// Updated Color Palette
+				'industrial-blue': '#1F295A',
+				'machinery-orange': '#EF4444',
+				'engine-gray': '#333333',
+				'steel-gray': '#64748B',
+				'factory-white': '#FFFFFF',
+				'precision-teal': '#EF4444',
+				'warning-yellow': '#F59E0B',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
