@@ -6,7 +6,7 @@ import { TrendingUp, Users, Award } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-industrial-blue via-steel-gray to-engine-gray overflow-hidden pt-16">
+    <section className="relative min-h-screen hero-gradient overflow-hidden pt-16">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 circuit-pattern opacity-10"></div>
       

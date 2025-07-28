@@ -55,11 +55,14 @@ export default {
 				},
 				// Updated Color Palette
 				'industrial-blue': '#003B5F', // rgb(0, 59, 95)
-				'machinery-orange': '#3CB94A', // rgb(60, 185, 74) - green
+				'machinery-orange': '#00C853', // bright green CTA buttons
 				'engine-gray': '#2E2E2E', // rgb(46, 46, 46)
 				'steel-gray': '#544F4F', // rgb(84, 79, 79)
-				'factory-white': '#F5F5F5', // rgb(245, 245, 245)
-				'precision-teal': '#3CB94A', // green for accent
+				'factory-white': '#F5F7F9', // light background
+				'precision-teal': '#00C853', // bright green accent
+				'industrial-gray': '#6B7B8C', // section dividers/icon backgrounds
+				'hero-dark': '#2A2E35', // hero gradient start
+				'hero-blue': '#3A5169', // hero gradient end
 				'warning-yellow': '#F59E0B',
 			},
 			borderRadius: {
