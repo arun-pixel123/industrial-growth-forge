@@ -54,12 +54,12 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				// Updated Color Palette
-				'industrial-blue': '#1F295A',
-				'machinery-orange': '#EF4444',
-				'engine-gray': '#333333',
-				'steel-gray': '#64748B',
-				'factory-white': '#FFFFFF',
-				'precision-teal': '#EF4444',
+				'industrial-blue': '#003B5F', // rgb(0, 59, 95)
+				'machinery-orange': '#3CB94A', // rgb(60, 185, 74) - green
+				'engine-gray': '#2E2E2E', // rgb(46, 46, 46)
+				'steel-gray': '#544F4F', // rgb(84, 79, 79)
+				'factory-white': '#F5F5F5', // rgb(245, 245, 245)
+				'precision-teal': '#3CB94A', // green for accent
 				'warning-yellow': '#F59E0B',
 			},
 			borderRadius: {
